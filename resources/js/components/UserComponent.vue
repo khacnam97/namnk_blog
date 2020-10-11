@@ -13,7 +13,7 @@
               <div class="card-body">
                 <div class="row">
                   <div class="form-group col-md-12">
-                    <label>User name</label>
+                    <label>Username</label>
                     <span class="text-red">*</span>
                     <input type="text" data-type="currency" v-model="user.name" class="form-control" placeholder="User name"  autocomplete="off">
                   </div>
