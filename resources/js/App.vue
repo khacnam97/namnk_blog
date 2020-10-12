@@ -1,5 +1,6 @@
 // App.vue
 <template>
+
   <div>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
       <router-link to="/" class="nav-link">Home</router-link>
@@ -37,7 +38,7 @@
         
       </div>
     </nav><br />
-    <div style="margin-right: 50px; margin-left: 50px;"> 
+    <div> 
       <transition name="fade">
         <router-view></router-view>
       </transition>
@@ -46,7 +47,7 @@
 </template>
 
 <style>
-    .fade-enter-active, .fade-leave-active {
+    /* .fade-enter-active, .fade-leave-active {
       transition: opacity .5s
     }
     .nav-link {
@@ -54,7 +55,7 @@
     }
     .fade-enter, .fade-leave-active {
       opacity: 0
-    }
+    } */
 </style>
 
 <script>
