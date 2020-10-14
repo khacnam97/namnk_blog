@@ -49,7 +49,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2 col-md-1">
                                 <div class="logo">
-                                    <a href="index.html"><img v-bind:src="'/img/logo/logo.png'" alt=""></a>
+                                    <router-link to="/" class="nav-link"><img v-bind:src="'/img/logo/logo.png'" alt=""></router-link>
                                 </div>
                             </div>
                             <div class="col-xl-10 col-lg-10 col-md-10">
@@ -58,9 +58,9 @@
                                     <div class="main-menu f-right d-none d-lg-block">
                                         <nav> 
                                             <ul id="navigation">
-                                                <li><a href="index.html">Home</a></li>
+                                                <li><router-link to="/" class="nav-link">Home</router-link></li>
                                                 <li><a href="about.html">About</a></li>
-                                                <li><a href="services.html">Services</a></li>
+                                                <li><router-link to="/create" class="nav-link">Create</router-link></li>
                                                 <li><a href="portfolio.html">Portfolio</a></li>
                                                 <li><a href="#">Page</a>
                                                     <ul class="submenu">
@@ -109,25 +109,6 @@
                             </div>
                        </div>
                    </div>
-               </div>
-                <div class="footer-bottom">
-                    <div class="row d-flex justify-content-between align-items-center">
-                        <div class="col-xl-9 col-lg-8">
-                            <div class="footer-copy-right">
-                               
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4">
-                            <!-- Footer Social -->
-                            <div class="footer-social f-right">
-                                <a>Stay Connected</a>
-                                <a href="#"><i class="fab fa-twitter-square"></i></a>
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
                </div>
             </div>
         </div>
