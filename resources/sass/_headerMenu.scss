@@ -65,6 +65,7 @@
                 &:hover{
                     & > a{
                         color:$theme-color;
+                        text-decoration: none;
                     }
                 }
             }
